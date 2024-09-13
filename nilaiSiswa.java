@@ -10,7 +10,7 @@ public class nilaiSiswa {
         int nilai=0;
         int totalNilai = 0;
 
-        for (int i = 1; i < totalSiswa; i++) {
+        for (int i = 1; i <= totalSiswa; i++) {
             System.out.print("Masukkan nilai untuk siswa " +i+ ": ");
             nilai = s.nextInt();
             totalNilai += nilai;
